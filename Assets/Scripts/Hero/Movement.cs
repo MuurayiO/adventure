@@ -37,13 +37,14 @@ public class Movement : MonoBehaviour
     }
     void Jump()
     {
-        if(Input.GetKey(KeyCode.Space) && grounded)
+        if(Input.GetKey(KeyCode.Space) && grounded || Input.GetKey(KeyCode.W) && grounded || Input.GetKey(KeyCode.UpArrow) && grounded )
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce); 
             anim.SetTrigger("Jump");          
         }
         
-        if(Input.GetKeyDown(KeyCode.Space) && ++jumpCount < maxValueJump)
+        if(Input.GetKeyDown(KeyCode.Space) && ++jumpCount < maxValueJump || Input.GetKeyDown(KeyCode.W) && ++jumpCount < maxValueJump || 
+        Input.GetKeyDown(KeyCode.UpArrow) && ++jumpCount < maxValueJump)
         {        
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);                                            
         }  
