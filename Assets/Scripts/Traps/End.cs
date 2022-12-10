@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour
+public class End : MonoBehaviour
 {
     private Animator anim;
     void OnTriggerEnter2D(Collider2D other)
@@ -9,12 +9,12 @@ public class LevelManager : MonoBehaviour
         if(other.tag == "Player")
         {
             anim = GetComponent<Animator>();
-            anim.SetTrigger("Finish"); 
+            anim.SetTrigger("End"); 
         }     
     }  
 
-    void NextLevel()
+    void NextLevel1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(0);
     }
 }

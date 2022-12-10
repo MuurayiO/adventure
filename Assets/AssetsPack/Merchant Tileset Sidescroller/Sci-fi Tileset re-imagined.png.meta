@@ -1283,7 +1283,7 @@ TextureImporter:
         width: 37
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1291,6 +1291,69 @@ TextureImporter:
       bones: []
       spriteID: 4f2c6e402db579b4d8d74ae6498a4049
       internalID: 1251810563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined_55
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3486e6c947a20ea48b0fae82963b9cc4
+      internalID: 1779469802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 16
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3fce071542c164a8ba749094f8a353
+      internalID: -1195995551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 102
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f1b2cf57f5a1144ab5400a15c8b011
+      internalID: 398042788
       vertices: []
       indices: 
       edges: []
@@ -1330,6 +1393,7 @@ TextureImporter:
       Sci-fi Tileset re-imagined_0: -1815476935
       Sci-fi Tileset re-imagined_44: 654109755
       Sci-fi Tileset re-imagined_15: 2122988436
+      Sci-fi Tileset re-imagined_56: -1195995551
       Sci-fi Tileset re-imagined_45: -514533129
       Sci-fi Tileset re-imagined_50: 2069900826
       Sci-fi Tileset re-imagined_17: -320688026
@@ -1346,6 +1410,8 @@ TextureImporter:
       Sci-fi Tileset re-imagined_21: -254635824
       Sci-fi Tileset re-imagined_37: 127110206
       Sci-fi Tileset re-imagined_41: -1990413174
+      Sci-fi Tileset re-imagined_57: 398042788
+      Sci-fi Tileset re-imagined_55: 1779469802
       Sci-fi Tileset re-imagined_23: -528604242
       Sci-fi Tileset re-imagined_25: -808895951
       Sci-fi Tileset re-imagined_54: 1251810563
